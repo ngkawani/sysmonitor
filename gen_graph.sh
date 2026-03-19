@@ -21,7 +21,7 @@ for rrd_file in "$rrd"/*.rrd; do
         file="graph_${nom_machine}_${sonde}.png"
         
         rrdtool graph "$output_dir/$file" \
-        --start "-24h" \
+        --start "$time" \
         --title "Stats $sonde - $nom_machine" \
         --vertical-label "%" \
         --width 800 --height 250 \
