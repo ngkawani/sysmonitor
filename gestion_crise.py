@@ -9,7 +9,7 @@ fichier_config = os.path.join(config_dir, "config_crise.json")
 fichier_template = os.path.join(config_dir, "modele_mail.html")
 
 config_par_defaut = {
-    "seuil_cpu": 80.0,
+    "seuil_cpu": 0.0,
     "seuil_ram": 85.0,
     "seuil_disque": 90.0,
     "email_admin": "matheo.leclerc@alumni.univ-avignon.fr",
