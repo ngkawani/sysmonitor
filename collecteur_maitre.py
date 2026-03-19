@@ -10,16 +10,16 @@ rrd_dir = "rrd_parc"
 config_defaut = {
     "machines": [
         {
-            "nom": "carl1",
-            "ip": "192.168.1.55",
-            "user": "ben",
+            "nom": "kawan1",
+            "ip": "100.115.125.5",
+            "user": "esclave",
             "remote_path_json": "/home/esclave/sysmonitor/export.json",
             "remote_path_rrd": "/home/esclave/sysmonitor/monitor.rrd"
         },
         {
-            "nom": "carl2",
-            "ip": "192.168.1.56",
-            "user": "carlos",
+            "nom": "kawan2",
+            "ip": "100.118.4.79",
+            "user": "kawani",
             "remote_path_json": "/home/kawani/sysmonitor/export.json",
             "remote_path_rrd": "/home/kawani/sysmonitor/monitor.rrd"
         }
