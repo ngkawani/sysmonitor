@@ -8,7 +8,7 @@ from email.message import EmailMessage
 
 url = "https://www.cert.ssi.gouv.fr/feed/"
 json_file = "derniere_alerte.json"
-config_file = ""
+config_file = "/home/kawani/config/config_crise.json"
 
 def send_alert_mail(alerte):
     if not os.path.exists(config_file):
