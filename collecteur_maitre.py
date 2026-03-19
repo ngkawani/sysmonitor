@@ -20,8 +20,8 @@ config_defaut = {
             "nom": "carl2",
             "ip": "192.168.1.56",
             "user": "carlos",
-            "remote_path_json": "/home/ngkawani/sysmonitor/export.json",
-            "remote_path_rrd": "/home/ngkawani/sysmonitor/monitor.rrd"
+            "remote_path_json": "/home/kawani/sysmonitor/export.json",
+            "remote_path_rrd": "/home/kawani/sysmonitor/monitor.rrd"
         }
     ]
 }
