@@ -13,15 +13,15 @@ config_defaut = {
             "nom": "carl1",
             "ip": "192.168.1.55",
             "user": "ben",
-            "remote_path_json": "/home/ben/sysmonitor/export.json",
-            "remote_path_rrd": "/home/ben/sysmonitor/monitor.rrd"
+            "remote_path_json": "/home/esclave/sysmonitor/export.json",
+            "remote_path_rrd": "/home/esclave/sysmonitor/monitor.rrd"
         },
         {
             "nom": "carl2",
             "ip": "192.168.1.56",
             "user": "carlos",
-            "remote_path_json": "/home/carlos/sysmonitor/export.json",
-            "remote_path_rrd": "/home/carlos/sysmonitor/monitor.rrd"
+            "remote_path_json": "/home/ngkawani/sysmonitor/export.json",
+            "remote_path_rrd": "/home/ngkawani/sysmonitor/monitor.rrd"
         }
     ]
 }
