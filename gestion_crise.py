@@ -16,7 +16,8 @@ config_par_defaut = {
     "serveur_smtp": "smtp",
     "port_smtp": 465,
     "utilisateur_smtp": "email",
-    "mdp_smtp": "mdp"
+    "mdp_smtp": "mdp",
+    "time_historique": "24h"
 }
 
 modele_par_defaut = """
