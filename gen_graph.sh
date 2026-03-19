@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rrd=""
-output_dir=""
+output_dir="/home/kawani/tempo"
 mkdir -p "$output_dir"
 
 echo "-+-+-+-+-+-+-+-+-+carlos+-+-+-+-+-+-+-+-+-+-"
