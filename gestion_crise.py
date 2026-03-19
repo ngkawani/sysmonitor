@@ -12,11 +12,11 @@ config_par_defaut = {
     "seuil_cpu": 80.0,
     "seuil_ram": 85.0,
     "seuil_disque": 90.0,
-    "email_admin": "email",
-    "serveur_smtp": "smtp",
+    "email_admin": "matheo.leclerc@alumni.univ-avignon.fr",
+    "serveur_smtp": "pedago.univ-avignon.fr",
     "port_smtp": 465,
-    "utilisateur_smtp": "email",
-    "mdp_smtp": "mdp",
+    "utilisateur_smtp": "matheo.leclerc@alumni.univ-avignon.fr",
+    "mdp_smtp": "Maethova0305,;",
     "time_historique": "24h"
 }
 
