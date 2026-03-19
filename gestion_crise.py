@@ -3,7 +3,7 @@ import os
 import smtplib
 from email.message import EmailMessage
 
-config_dir = "config"
+config_dir = "../config"
 dossier_donnees = "json_parc"
 fichier_config = os.path.join(config_dir, "config_crise.json")
 fichier_template = os.path.join(config_dir, "modele_mail.html")
