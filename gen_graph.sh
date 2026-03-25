@@ -19,7 +19,7 @@ for rrd_file in "$rrd"/*.rrd; do
     for sonde in "cpu" "ram" "disque"; do
         
         file="graph_${nom_machine}_${sonde}.png"
-        
+        echo $(cat /home/kawani/config/config_crise.json | tail -n 2 | head -n 1 | cut -d':' -f 2 | tr -d ' ' | sed 's/""/"/g')
         rrdtool graph "$output_dir/$file" \
         --start $(cat /home/kawani/config/config_crise.json | tail -n 2 | head -n 1 | cut -d':' -f 2 | tr -d ' ' | sed 's/""/"/g') \
         --title "Stats $sonde - $nom_machine" \
