@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rrd=""
-output_dir=""
+rrd="/home/kawani/sysmonitor"
+output_dir="/home/kawani/sysmonitor/images"
 mkdir -p "$output_dir"
 
 echo "-+-+-+-+-+-+-+-+-+carlos+-+-+-+-+-+-+-+-+-+-"
