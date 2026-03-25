@@ -21,7 +21,7 @@ for rrd_file in "$rrd"/*.rrd; do
         file="graph_${nom_machine}_${sonde}.png"
         
         rrdtool graph "$output_dir/$file" \
-        --start $(echo $(cat /home/kawani/config/config_crise.json | tail -n 2 | head -n 1 | cut -d':' -f 2 | tr -d ' ' | sed 's/"//')) \
+        --start $(cat /home/kawani/config/config_crise.json | tail -n 2 | head -n 1 | cut -d':' -f 2 | tr -d ' ' | sed 's/"//') \
         --title "Stats $sonde - $nom_machine" \
         --vertical-label "%" \
         --width 800 --height 250 \
